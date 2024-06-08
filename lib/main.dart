@@ -27,7 +27,10 @@ class _MyAppState extends State<MyApp> {
         tempToken: token,
         uid: uid,
     ),
-    
+    agoraChannelData: AgoraChannelData(
+        channelProfileType: ChannelProfileType.channelProfileLiveBroadcasting,
+        clientRoleType: ClientRoleType.clientRoleAudience,
+    ),
 );
 
   @override
